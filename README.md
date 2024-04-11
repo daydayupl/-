@@ -432,7 +432,7 @@ lmdeploy chat /root/internlm2-chat-1_8b-4bit --model-format awq --cache-max-entr
 
 可以看到，显存占用变为2472MB，明显降低。
 
-![](./imgs/3.3_1.jpg)
+![](./imgs/3.2.jpeg)
 
 **拓展内容**：有关LMDeploy的lite功能的更多参数可通过-h命令查看。
 
@@ -544,7 +544,7 @@ lmdeploy serve gradio http://localhost:23333 \
     --server-port 6006
 ```
 
-![](./imgs/4.3_1.jpg)
+![](./4.3_1.jpeg)
 
 运行命令后，网页客户端启动。在电脑本地新建一个cmd终端，新开一个转发端口：
 
@@ -636,7 +636,7 @@ python /root/pipeline_kv.py
 
 得到输出结果：
 
-![](./imgs/5.2_1.jpg)
+![](./5.2.jpeg)
 
 # 6.拓展部分
 
