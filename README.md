@@ -432,7 +432,7 @@ lmdeploy chat /root/internlm2-chat-1_8b-4bit --model-format awq --cache-max-entr
 
 可以看到，显存占用变为2472MB，明显降低。
 
-![](./imgs/3.2.jpeg)
+![](./3.2.jpeg)
 
 **拓展内容**：有关LMDeploy的lite功能的更多参数可通过-h命令查看。
 
